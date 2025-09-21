@@ -1,0 +1,47 @@
+# Node.js
+node_modules/
+dist/
+build/
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+.env.test
+.env.stage
+.env.development.local
+.env.production.local
+.env.test.local
+.env.stage.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Logs
+logs
+*.log
+*.out
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Certificates
+certs/
+*.pem
+*.key
+*.crt
+
+# Test
+__mocks__/
+test-results/
+cypress.env.json
+
+# OS
+.DS_Store
+Thumbs.db
